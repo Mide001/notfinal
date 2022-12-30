@@ -1,0 +1,26 @@
+.form {
+    height: 200px;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+}
+.form input {
+    height: 65px;
+    width: 340px;
+    padding: 30px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    border-radius: 15px;
+}
+.form button {
+    height: 65px;
+    width: 170px;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: #81DCFA;
+    color: black;
+}
