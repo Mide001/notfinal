@@ -26,7 +26,7 @@ function Layout({ children }) {
             <ul className={isActive === false ? styles.navmenu : styles.navmenu + " " + styles.active}>
                 {}
                 <li className={styles.navLink}>
-                    <Link href={"/rules"}>Rules</Link>
+                    <Link href={"/rules"}>Teams</Link>
                 </li>
                 <li className={styles.navLink}>
                     <Link href={"/whitepaper"}>Whitepaper</Link>
